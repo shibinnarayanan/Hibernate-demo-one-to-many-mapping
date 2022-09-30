@@ -1,0 +1,49 @@
+
+# To create Question
+  http://localhost:8080/save
+Request Body - > 
+#
+{
+   "question":"Capital of Kerala ?",
+   "answer":"Trivandrum",
+   "options":[
+      {
+         "option":"Palakkad"
+      },
+      {
+         "option":"Calicut"
+      },
+      {
+         "option":"Kottayam"
+      },
+      {
+         "option":"Ernamkulam"
+      }
+   ]
+}
+#
+{
+   "question":"Paliandrom word below ?",
+   "answer":"malayalam",
+   "options":[
+      {
+         "option":"congrats"
+      },
+      {
+         "option":"malayalam"
+      },
+      {
+         "option":"india"
+      },
+      {
+         "option":"run"
+      }
+]
+}
+
+# to get reuslt against the test
+    http://localhost:8080/answer/{id}/{option}
+
+
+
+
